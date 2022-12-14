@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(OIP.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 40px 40px;
+}
+.logo{
+    font-size: 20px;
+    color: honeydew;
+    padding: 10px 0 0 30px;
+    width: 200px;
+    height: 50px;
+    background:linear-gradient(to bottom,rgb(114, 141, 193),rgba(21, 5, 5, 0.819));
+    border: 2px black solid;
+    border-radius: 20px;
+
+
+
+}
+
+ul li{
+    display: inline-block;
+}
+ul li a{
+    color: black;
+    margin: 30px;
+    font-size: 20px;
+    width: 200px;
+    height: 80px;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 9px;
+    transition: .5s ease;
+    
+}
+a:hover{
+    font-size: 22px;
+    color: rgb(114, 141, 193);
+}
+
+.me{
+    width: 300px;
+    position: absolute;
+    left: 100px;
+    padding-top:20px ;
+}
+.std1{
+    width: 500px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.845);
+    border: 2px cornflowerblue solid;
+    border-radius: 10px;
+    position: absolute;
+    left: 10%;
+    top: 18%;
+}
+.std2{
+    width: 500px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.842);
+    border: 2px cornflowerblue solid;
+    border-radius: 10px;
+    position: absolute;
+    right: 10%;
+    top: 18%;
+}
+.you{
+    width: 300px;
+    position: absolute;
+    left: 100px;
+    height: 400px;
+    padding-top:20px ;
+}
+.std1 .name{
+    font-size: 30px;
+    font-weight: 400px;
+    letter-spacing: 2px;
+    color: aliceblue;
+    position: absolute;
+    bottom: 20%;
+    padding-left: 15px;
+}
+.std1 .age{
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: aliceblue;
+    position: absolute;
+    bottom: 15%;
+    line-height: 10px;
+    padding-left: 15px;
+}
+.std2 .name{
+    font-size: 30px;
+    font-weight: 400px;
+    letter-spacing: 2px;
+    color: aliceblue;
+    position: absolute;
+    bottom: 20%;
+    padding-left: 15px;
+}
+.std2 .age{
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: aliceblue;
+    position: absolute;
+    bottom: 15%;
+    line-height: 10px;
+    padding-left: 15px;
+}
+.icon{
+    width: 100%;
+    margin: 50px;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: -10%;
+    left: 20%;
+
+
+
+}
+.icon .icons{
+    width: 30px;
+    display: inline-block;
+    background-color: aliceblue;
+    margin: 10px;
+}
+div h1{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 8%;
+    left: 32%;
+    font-size: 40px;
+    color: cornflowerblue;
+}
+
+    </style>
+    <div class="container">
+
+              <nav>
+                <i class="logo">Ahmed&Ahmed</i>
+
+                <ul>
+                    <li><a href="#">contact</a></li>
+                    <li><a href="#">service</a></li>
+                    <li><a href="#">FeedBack</a></li>
+                </ul>
+              </nav>
+             <div>
+            <h1>Welcome To Our Webpage</h1>
+           </div>
+
+
+            <div class="std1">
+                <img class="me" src="ahmed1.jpg" alt="ahmed">
+                
+                <p class="name">Name : Ahmed Adel Soltan</p> 
+                <p class="age">Age : 18</p>  
+                <div class="icon">
+                    <!-- <a target="_blank" href="https://www.facebook.com/" ><img src="face.png" class="icons"></a>
+                    <a target="_blank" href="https://www.instagram.com/"><img src="insta.png" class="icons"></a>
+                    <a target="_blank" href="https://mail.google.com/chat/u/0/#chat/welcome"><img src="google.webp" class="icons"></a> -->
+            </div>      
+
+            </div>
+            
+            <div class="std2">
+                <img class="you" src="ahmed2.jpg" alt="ahmed">
+                <p class="name">Name : Ahmed Maher Mohammed</p> 
+                <p class="age">Age : 18</p> 
+                <div class="icon">
+                    <!-- <a href="#"><img src="face.png" class="icons"></a>
+                    <a href="#"><img src="insta.png" class="icons"></a>
+                    <a href="#"><img src="google.webp" class="icons"></a> -->
+            </div>   
+               
+            </div>
+            <div>
+
+
+            </div>
+
+    </div>
+</body>
+</html>
